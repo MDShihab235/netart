@@ -1,0 +1,16 @@
+.products-container {
+  width: 100vw;
+
+  p {
+    width: 90vw;
+    margin: 20px;
+    font-weight: 500;
+  }
+
+  .products {
+    text-align: center;
+    > img {
+      width: 80vw;
+    }
+  }
+}
