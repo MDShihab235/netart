@@ -3,7 +3,7 @@ header {
     text-align: center;
   }
   .logo > img {
-    width: 400px;
+    width: 40%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -17,12 +17,12 @@ header {
     }
     > div > img {
       margin: 10px;
-      width: 400px;
+      width: 90%;
     }
     > div > div > img {
       padding: 10px;
       margin: 10px;
-      width: 800px;
+      width: 90%;
     }
     > div > div > ul {
       margin-top: 20px;
@@ -32,6 +32,14 @@ header {
     }
     > div > p > span {
       font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    .header-container {
+      flex-direction: column;
     }
   }
 }

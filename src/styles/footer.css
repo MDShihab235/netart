@@ -1,0 +1,28 @@
+footer {
+  background-color: rgb(229, 23, 23);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: max-content;
+  > div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    > img {
+      width: 30px;
+      height: 30px;
+      margin: 10px;
+    }
+    > p {
+      font-size: 14px;
+      color: white;
+      margin: 15px 10px 10px 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+}
